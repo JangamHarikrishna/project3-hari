@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>condition statements</title>
+</head>
+<body>
+    <center>
+   <h1>nested if blocks</h1>  
+   
+{% if a > b %}
+        {% if  a > c %}
+            <h1>a is max</h1>
+        {% else %}
+            <h1>c is max</h1>
+        {% endif %}
+{% else %}
+    {% if  b > c %}
+        <h1>b is max</h1>
+    {% else %}
+        <h1>c is max</h1>
+    {% endif %}
+{% endif %}
+<h1>condional Statements</h1>
+        {% if a >= 500 %}
+            <h2>I am in if block </h2>
+            <h2>{{a}}</h2>
+        {% endif %}
+        <h1 >hello my dear bye bye</h1>
+        <h2 style="color:blue ;"><marquee behavior="scroll" direction="left">bye bye friends good evening</marquee></h2>
+        
+
+
+
+
+
+
+
+</center>
+    
+    
+
+</body>
+</html>
